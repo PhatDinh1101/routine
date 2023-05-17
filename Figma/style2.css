@@ -1,0 +1,1064 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #eceaea;
+}
+
+div.banner {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.banner_logo {
+  position: relative;
+  margin-left: 69px;
+}
+.banner_logo img {
+  padding-top: 10px;
+  width: 90px;
+}
+
+.accordion {
+  right: 35px;
+  top: 2px;
+}
+
+.accordion > li {
+  position: relative;
+  width: 50px;
+}
+
+.accordion .link a {
+  position: relative;
+  display: block;
+  padding: 5px 10px;
+  color: #0aa1f3;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  color: wheat;
+}
+
+.accordion .link > a {
+  color: #fff;
+}
+
+.submenu {
+  display: block;
+  margin: 10px -250px;
+  width: 295px;
+  position: relative;
+}
+
+.submenu::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #666ee8;
+  transform: translateY(-100%);
+}
+
+.submenu li {
+  border-radius: 4px 4px 0 0;
+}
+
+.submenu li a {
+  color: #181819;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.submenu li:first-child {
+  background: #666ee8;
+  display: block;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+.solid1 {
+  filter: blur(-10%);
+  color: #e7e6eb;
+}
+
+.info,
+.info1,
+.info2 {
+  margin-left: 10px;
+  height: 20px;
+}
+.info,
+.info1 {
+  display: flex;
+  padding: 10px 0;
+}
+.info {
+  background: #666ee8;
+  color: white;
+}
+
+.info2 {
+  color: white;
+}
+
+.noti,
+.message {
+  display: flex;
+}
+.noti div,
+.message div {
+  padding-right: 10px;
+}
+
+.noti-img {
+  padding-top: 7px;
+}
+
+.noti-info p {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.noti-info p:last-child {
+  font-size: 12px;
+  color: rgba(24, 24, 25, 0.42);
+}
+
+.message-info {
+  padding-top: 10px;
+}
+
+.see-more {
+  margin: auto;
+}
+
+.see-more span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(98, 0, 238, 0.9);
+}
+
+
+
+nav {
+  margin-top: 2px;
+  background-color: white !important;
+  display: flex;
+}
+
+.toggle {
+  display: none;
+}
+
+nav::after {
+  content: "";
+  display: table;
+}
+
+div.logo_menu {
+  display: none;
+}
+
+#main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 20px;
+}
+
+#main-menu li {
+  position: relative;
+}
+
+#main-menu li:hover {
+  display: block;
+}
+
+#main-menu li a {
+  text-decoration: none;
+}
+
+nav ul li a {
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  justify-content: space-between;
+  position: relative;
+  color: #6f6e6e;
+  line-height: 20px;
+}
+nav ul li:hover {
+  border-bottom: 1px solid #6200ee;
+}
+nav ul ul li a:hover {
+  color: #6200ee;
+}
+
+#main-menu li a div {
+  display: flex;
+  padding: 6px 10px;
+}
+
+#main-menu li a div p {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+#main-menu li > .sub-menu {
+  position: absolute;
+  display: none;
+  z-index: 1000;
+  background-color: white;
+}
+.arrow-menu {
+  position: absolute;
+  right: -13px;
+}
+
+#main-menu li:hover > ul {
+  display: block;
+}
+
+section {
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  z-index: -1;
+}
+
+.bar {
+  display: flex;
+  position: relative;
+  margin: 10px;
+}
+
+.bar_img {
+  border: 1px solid #e7e6eb;
+  border-radius: 4px 0px 0px 4px;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+input {
+  width: 260px;
+  height: 40px;
+
+  background: rgba(86, 87, 88, 0.04);
+
+  border: 1px solid #e7e6eb;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.btnSearch {
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  padding-left: 5px;
+
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 117, 0, 1) 0%,
+    rgba(171, 0, 255, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 117, 0, 1) 0%,
+    rgba(171, 0, 255, 1) 100%
+  );
+
+  background: -o-linear-gradient(
+    90deg,
+    rgba(255, 117, 0, 1) 0%,
+    rgba(171, 0, 255, 1) 100%
+  );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#AB00FF', endColorstr='#FF7500', GradientType=0 );
+
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(255, 117, 0, 1) 0%,
+    rgba(171, 0, 255, 1) 100%
+  );
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 117, 0, 1) 0%,
+    rgba(171, 0, 255, 1) 100%
+  );
+  color: white;
+}
+
+.btnSearch span {
+  position: relative;
+  top: -5px;
+  margin: 10px;
+}
+.arrow {
+  position: absolute;
+  right: 135px;
+  top: 10px;
+}
+
+.statistical {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 25px auto;
+}
+
+.statisticaldetail {
+  display: flex;
+  background-color: #B2E9DE;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  width: 24%;
+  border: 1px solid #efedf2;
+}
+.content_image {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+.statisticaldetail2 {
+  display: flex;
+  background-color: #ffe8dd;
+  border-radius: 4px;
+  margin: 10px;
+  position: relative;
+  width: 24%;
+}
+.statisticaldetail3 {
+  display: flex;
+  background-color: #e4e5fb;
+  border-radius: 4px;
+  margin: 10px;
+  position: relative;
+  width: 24%;
+}
+
+.revenue {
+  background-color: #e6f8f5;
+}
+.convert {
+  background-color: #fff0e9;
+}
+
+.conversionvalue {
+  background-color: #edeefc;
+}
+
+.countclick {
+  background-color: #e6f6fe;
+}
+
+.revenue,
+.convert,
+.conversionvalue,
+.countclick {
+  display: flex;
+  align-content: center !important;
+  justify-content: space-between;
+  border-radius: 4px;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-clip-path: ellipse(55% 100% at 38% 49%);
+  clip-path: ellipse(55% 100% at 38% 49%);
+  width: 95%;
+}
+
+div.content {
+  padding: 40px;
+}
+
+/* .arrow {
+  position: absolute;
+  right: 135px;
+  top: 10px;
+}
+
+.statistical {
+  display: flex;
+ 
+}
+
+.revenue {
+  background-color: #e6f8f5;
+}
+
+div.content-path {
+  background-color: red;
+  width: 10px;
+  height: auto;
+  position: absolute;
+}
+
+.convert {
+  background-color: #fff0e9;
+}
+
+.conversionvalue {
+  background-color: #edeefc;
+}
+
+.countclick {
+  background-color: #e6f6fe;
+}
+
+.revenue,
+.convert,
+.conversionvalue,
+.countclick {
+  display: flex;
+  margin: 15px;
+  align-content: center;
+  padding: 30px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  width: 24.5%;
+  position: relative;
+}
+
+.content > span:last-child {
+  display: block;
+}
+
+.content_image {
+  position: absolute;
+  right: 20px;
+  top: 45px;
+} */
+
+h6 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+div.content b {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+div.content span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #dd425a;
+}
+
+div.content p {
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.content > b {
+  font-size: 20px;
+}
+
+.main {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+div.left {
+  width: 61.5%;
+  margin-right: 2%;
+  padding: 20px;
+}
+
+.conversion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conversion div h4 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 5px;
+}
+
+.conversion div p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.conversion select {
+  border: 1px solid #e7e6eb;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 1000;
+  padding: 15px;
+}
+
+.chart {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+ul.note {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.note li {
+  width: 25%;
+  border-right: 1px solid #efedf2;
+  text-align: center;
+}
+
+ul.note li span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+ul.note li p {
+  color: rgba(24, 24, 25, 0.42);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+ul.note li:last-child {
+  border: none;
+}
+
+div.right {
+  width: 28%;
+  position: relative;
+}
+.solid {
+  position: absolute;
+  left: 0;
+  width: 99.9%;
+}
+
+.left,
+.right {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px #e7e6eb Solid;
+}
+
+.title,
+.browser,
+.mobile,
+.news {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.4px;
+  color: rgba(24, 24, 25, 0.7);
+}
+
+.title h5,
+.topic h5,
+.mobile h5 {
+  margin-bottom: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.4px;
+  color: rgba(24, 24, 25, 0.9);
+}
+
+hr.solid {
+  border: 1px solid rgb(225, 224, 224);
+}
+
+hr.solid_1 {
+  border: 1px solid rgb(225, 224, 224);
+}
+.description > div {
+  margin: 5px;
+}
+
+.description {
+  display: flex;
+  margin: 10px;
+}
+
+.description div p:last-child {
+  color: rgba(219, 218, 218, 0.598);
+}
+
+.description img,
+.description div {
+  margin-top: 10px;
+}
+
+.description span {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+article {
+  display: flex;
+  width: 100%;
+}
+
+.browser,
+.mobile,
+.news {
+  width: 32%;
+  background-color: white;
+  margin: 1%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(225, 224, 224);
+}
+
+.annotate {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.annotate > div {
+  text-align: center;
+}
+
+.circle {
+  text-align: center;
+  padding: 15px;
+}
+
+.circle div {
+  position: relative;
+  width: 100%;
+}
+
+.circle div div {
+  position: absolute;
+  top: 70px;
+  /* left: 225px; */
+}
+
+.t {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 25%;
+  position: relative;
+  padding: 25px 10px;
+  margin: 0 5px;
+}
+
+.t img {
+  width: 10px;
+  height: 10px;
+  display: block;
+  padding: 5px;
+}
+
+.detail {
+  position: absolute;
+  left: 35px;
+  top: 27px;
+  text-align: left;
+}
+
+.detail p,
+.detail b {
+  font-weight: 10000;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(24, 24, 25, 0.42);
+}
+
+.detail b {
+  color: rgba(24, 24, 25, 0.9);
+}
+
+.p {
+  width: 25%;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+.details {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+
+  color: rgba(24, 24, 25, 0.42);
+}
+
+.annotate2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.details b {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(24, 24, 25);
+}
+
+/* news */
+.topic {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  position: relative;
+  margin: 8px 5px;
+}
+
+.topic h5 {
+  margin: 11px 0;
+}
+
+.topic h6 a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 20px;
+}
+.topic h6 a > img {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+.blog {
+  display: flex;
+  margin: 12px 20px;
+}
+
+.text-blog {
+  width: 100%;
+}
+
+.text-blog p {
+  padding: 13px;
+  width: 85%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.solid_2 {
+  width: 90%;
+  margin: 0 25px;
+}
+
+footer {
+  width: 98%;
+  background-color: white;
+  margin: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(225, 224, 224);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(225, 224, 224);
+}
+
+tr th,
+td {
+  text-align: left;
+  padding: 20px;
+}
+
+th {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(24, 24, 25, 0.9);
+}
+td {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+table tr:nth-child(odd) {
+  background-color: white;
+}
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.foooter {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration: none;
+}
+.foooter a {
+  text-decoration: none;
+  color: #009ae1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* submenu */
+
+.submenu {
+  display: none;
+  background: #f8f9f9;
+}
+.accordion {
+  display: flex;
+  position: absolute;
+}
+
+.accordion li {
+  padding: 5px;
+  z-index: 1000;
+}
+
+.accordion .submenu > li a {
+  display: block;
+  padding: 5px 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner_logo {
+    display: none;
+  }
+
+  .banner_icon {
+    position: absolute;
+    right: 0;
+  }
+
+  .toggle {
+    display: block;
+    background-color: white;
+    padding: 13px 20px;
+  }
+
+  .accordion > li {
+    width: 35px;
+  }
+
+  /* menu */
+
+  div.logo_menu {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0;
+  }
+  nav {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  #main-menu {
+    display: block;
+    padding: 2px 20px;
+  }
+
+  #main-menu li:hover {
+    display: block;
+  }
+  nav ul li:hover {
+    border-bottom: none;
+  }
+  #main-menu li a div {
+    border-radius: 50px;
+  }
+
+  #main-menu li > .sub-menu {
+    position: static;
+    padding-right: 10px;
+  }
+
+  .sub-menu li {
+    padding: 0 25px;
+  }
+
+  /* end menu */
+
+  .search {
+    flex-direction: column;
+  }
+
+  input {
+    width: 85%;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 85px;
+    top: 10px;
+  }
+
+  .btnSearch {
+    width: 55px;
+  }
+
+  .btnSearch span {
+    display: none;
+  }
+
+  .statistical {
+    flex-direction: column;
+ 
+  }
+  .statisticaldetail, .statisticaldetail2, .statisticaldetail3 {
+    width: 95%;
+  }
+
+
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    padding: 0;
+  }
+
+  div.left {
+    width: 100%;
+    padding: 0;
+  }
+  div.conversion {
+    padding: 10px;
+  }
+  .chart {
+    padding: 10px;
+    width: 97% !important;
+    height: 200px;
+  }
+
+  .note {
+    padding-bottom: 30px;
+  }
+
+  .title {
+    padding: 10px 10px 0 25px;
+  }
+
+  div.right {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .solid_1 {
+    width: 90%;
+    display: block;
+    margin-left: 20px;
+  }
+  article {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .browser,
+  .mobile,
+  .news {
+    width: 100%;
+    margin: 0;
+  }
+  .mobile,
+  .news {
+    margin-top: 15px;
+  }
+
+  .circle div div {
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+
+  .p {
+    width: 25%;
+    padding-left: 25px;
+    padding-top: 50px;
+  }
+
+  footer {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+
+  table {
+    width: 100%;
+    overflow-y: hidden;
+  }
+}

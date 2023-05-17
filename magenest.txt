@@ -1,0 +1,5 @@
+lable: => Catalog => product labels manage 
+banner => content => Manage Banner
+menu => main_menu(menu slider (header))
+menu => sticky_menu (menu slider child (header)
+block: home new product, home video, home banner 

@@ -1,0 +1,301 @@
+<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_per_page="5"
+     products_count="13" template="Magento_CatalogWidget::product/widget/content/grid.phtml"
+     conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`743`^]^]"}}
+</p>
+<div class="banner">
+     <div class="banner-image">
+          <div class="hidden-xs hidden-sm">&nbsp;</div>
+          <div class="hidden-md hidden-lg"><img src="https://routine.vn/media/wysiwyg/Group_296.png" alt=""></div>
+     </div>
+</div>
+<div class="menu-mb">
+     <ul class="menutop">
+          <li>
+               <h2><a href="#s1"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Câu
+                                   chuyện</span></span></a></h2>
+          </li>
+          <li>
+               <h2><a href="#s2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">rung cảm
+                                   mùa hè</span></span></a></h2>
+          </li>
+          <li>
+               <h2><a href="#s3"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Mua sắm
+                                   ngay bây giờ</span></span></a></h2>
+          </li>
+          <li>
+               <h2><a href="#s4"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">khuyến
+                                   mãi</span></span></a></h2>
+          </li>
+     </ul>
+</div>
+<div class="banner">
+     <div class="banner-image">
+          <div class="hidden-xs hidden-sm">&nbsp;</div>
+          <div class="hidden-md hidden-lg"><img src="https://routine.vn/media/wysiwyg/IMG_6690_1.png" alt=""></div>
+     </div>
+</div>
+<div class="introduce__summer">
+     <div class="introduce__img"><img src="https://routine.vn/media/wysiwyg/Untitled_Catalog_04140.png" alt=""></div>
+     <div class="introduce__text">
+          <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">mùa đang đến</span></span>
+          </p>
+          <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Tạm gác lại những bộn bề công
+                         việc, tạm rời xa phố thị lơ lửng người xe, bỏ sau cái nắng oi ả ta trở về với không gian thư
+                         thái thái, hòa mình vào thiên nhiên.</span></span></p>
+          <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">SS23 Collection đưa bạn về
+                         những rung cảm chân thật nhất qua từng chi tiết nhỏ, tạo nên “Good Mood” và tận hưởng “Good
+                         Day” thật hoàn toàn. </span><span style="vertical-align: inherit;">Bạn sẽ được tái tạo lại năng
+                         lượng cho say đường tiếp theo bằng những thiết kế thoải mái, dễ chịu cũng như màu sắc tươi mới
+                         và đảm bảo tính thời trang, để rồi ghi dấu bằng những trải nghiệm thú vị trong chuyến du lịch
+                         mùa hè của mình.</span></span></p>
+     </div>
+</div>
+<div class="video" style="display: none;">
+     <div class="video-text">
+          <h1>Video</h1>
+     </div>
+</div>
+<div class="row-banner_1"><img src="https://routine.vn/media/wysiwyg/Group_298.png" alt=""></div>
+<div class="row-banner_2"><img src="https://routine.vn/media/wysiwyg/IMG_6566_1.png" alt=""></div>
+<div class="row-banner_5">
+     <div class="col">
+          <h2><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Summer Vibes
+                         nam</span></span></h2>
+          <p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Bộ sưu tập SS23 mang đến mùa
+                         hè qua những món đồ thoải mái, nữ tính nhất cùng đầm midi với chất liệu vải cotton thoáng mát,
+                         quần jean có độ co giãn siêu thoải mái và những chiếc sơ mi oversize nhẹ để khoác ngoài.
+                    </span><span style="vertical-align: inherit;">Cùng thói quen thả mình vào thiên nhiên, thư giãn và
+                         bước vào mùa hè theo cách của riêng bạn.</span></span></p>
+     </div>
+     <div class="col_img">
+          <div class="col_img_1"><img src="https://routine.vn/media/wysiwyg/Group_274.png" alt="">
+               <div class="col_shopping">
+                    <p><a href="#"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Mua sắm
+                                        ngay bây giờ</span></span></a></p>
+               </div>
+          </div>
+          <div class="col_img_2"><img src="https://routine.vn/media/wysiwyg/ROU03376.png" alt=""></div>
+     </div>
+</div>
+<div class="row-banner_1"><img src="https://routine.vn/media/wysiwyg/Group_299.png" alt=""></div>
+<div class="row-banner_3"><img src="https://routine.vn/media/wysiwyg/IMG_6053_1.png" alt=""></div>
+<div class="row-banner_5"><img src="https://routine.vn/media/wysiwyg/ROU04341_-_Copy_1.png" alt=""></div>
+<div class="row-banner_5"><img src="https://routine.vn/media/wysiwyg/ROU03541_3.png" alt=""></div>
+<div class="row-banner_1"><img src="https://routine.vn/media/wysiwyg/ROU03352_1.png" alt=""></div>
+<div class="product_list">
+     <h4 class="mt-20" style="margin-bottom: 20px !important;"><span style="vertical-align: inherit;"><span
+                    style="vertical-align: inherit;">CHO PHỤ NỮ</span></span></h4>
+</div>
+<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_per_page="4"
+     products_count="48" template="Magento_CatalogWidget::product/widget/content/grid.phtml"
+     conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`743`^]^]"}}<span
+          style="vertical-align: inherit;"><span style="vertical-align: inherit;">Danh mục sản phẩm Danh
+               sách</span></span></p>
+<div class="promotion">
+     <h2><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Khuyến mãi</span></span></h2>
+     <div><img src="https://routine.vn/media/wysiwyg/SS23_-_T4_-_Aeon_HP_-_1080x1920px-01_1.png" alt=""></div>
+     <div class="cta-buy"><a class="btn_buy"><span style="vertical-align: inherit;"><span
+                         style="vertical-align: inherit;">mua ngay</span></span></a></div>
+</div>
+<div class="menu-mb">
+     <ul class="menutop">
+          <li>
+               <h2><a href="#s1"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Câu
+                                   chuyện</span></span></a></h2>
+          </li>
+          <li>
+               <h2><a href="#s2"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">rung cảm
+                                   mùa hè</span></span></a></h2>
+          </li>
+          <li>
+               <h2><a href="#s3"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Mua sắm
+                                   ngay bây giờ</span></span></a></h2>
+          </li>
+          <li>
+               <h2><a href="#s4"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">khuyến
+                                   mãi</span></span></a></h2>
+          </li>
+     </ul>
+</div>
+<style>
+     .menutop {
+          display: flex;
+          justify-content: center;
+     }
+
+     .menutop li {
+          position: relative;
+     }
+
+     .menutop li:after {
+          display: block;
+          position: absolute;
+          content: "";
+          height: 2px;
+          left: 11px;
+          bottom: 11px;
+          border-bottom: solid 3px #000;
+          transform: scaleX(0);
+          transition: transform 250ms ease-in-out;
+          width: calc(100% - 20px);
+          margin: 0 auto;
+     }
+
+     .menutop li:hover:after {
+          transform: scaleX(1);
+     }
+
+     .menutop li h2 {
+          margin: 1rem 0;
+          display: flex;
+          align-items: center;
+     }
+
+     .menutop li a {
+          margin: 5px 10px;
+          font-family: 'Roboto Condensed';
+          font-size: 14px;
+          font-weight: 700;
+          text-decoration: none;
+          text-transform: uppercase;
+     }
+
+     .introduce__summer {
+          display: flex;
+          margin-top: 20px;
+          background: #000;
+     }
+
+     .introduce__img {
+          width: 35%;
+     }
+
+     .introduce__text {
+          width: 65%;
+          margin-top: 22%;
+          padding: 0 20px 0 8px;
+     }
+
+     .introduce__text p {
+          font-size: 12px;
+          padding-bottom: 10px;
+          color: #fff;
+     }
+
+     .video {}
+
+     .video .video-text {
+          background: #cdcdcd;
+          height: 690px;
+          width: 100%;
+          background-image: url(https://routine.izysync.com/media/wysiwyg/image_60.png);
+          background-repeat: no-repeat;
+     }
+
+     .video .video-text h1 {
+          margin: auto;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .row-banner_2 {
+          margin: 4rem 3rem;
+     }
+
+     .row-banner_3 {
+          margin: 10%;
+     }
+
+     .row-banner_4 {
+          margin: 5%;
+     }
+
+     .row-banner_4 .col {
+          padding-bottom: 10px;
+     }
+
+     .row-banner_5 {
+          margin-bottom: 4rem;
+     }
+
+     .row-banner_5 .col {
+          margin: 10% 5% 0;
+     }
+
+     .row-banner_5 .col h2 {
+          text-transform: uppercase;
+          font-size: 24px;
+     }
+
+     .row-banner_5 .col p {
+          width: 90%;
+          text-align: justify;
+     }
+
+     .row-banner_5 .col_img_1 {
+          margin: 10% 0;
+     }
+
+     .row-banner_5 .col_img_1 .col_shopping {
+          text-align: center;
+          margin-top: 3rem;
+     }
+
+     .row-banner_5 .col_img_1 .col_shopping p {
+          border-bottom: 3px solid #000;
+          margin: 0 21%;
+     }
+
+     .row-banner_5 .col_img {
+          display: flex;
+          align-items: center;
+     }
+
+     .row-banner_7 {
+          margin-top: 3rem 2rem;
+     }
+
+     .row-banner_8 {
+          margin: 2rem 0 2rem 2rem;
+     }
+
+     .row-banner_9 {
+          margin: 2rem 2rem 2rem 0;
+     }
+
+     .promotion h2 {
+          text-transform: uppercase;
+          font-size: 30px;
+          font-weight: 700;
+          text-align: center;
+     }
+
+     .cta-buy {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 3rem 0;
+     }
+
+     .cta-buy .btn_buy {
+          padding: 10px;
+          font-size: 27px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #084030;
+          text-align: center;
+          background: #f8f054;
+          text-decoration: none;
+     }
+
+     @media only screen and (min-width: 768px) {
+          .slick-initialized .slick-slide {
+               width: 360px !important;
+          }
+
+     }
+
+     @media only screen and (min-width: 1024px) {}
+</style>
